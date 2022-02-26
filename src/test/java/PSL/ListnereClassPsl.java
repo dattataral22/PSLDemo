@@ -22,6 +22,7 @@ public class ListnereClassPsl extends baseClass implements ITestListener
 	public void onTestStart(ITestResult result) 
 	{
 		 test=extents.createTest(result.getMethod().getMethodName());
+		 System.out.println("listenare classs changes");
 		
 	}
 
