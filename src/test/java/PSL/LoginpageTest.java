@@ -35,6 +35,7 @@ public class LoginpageTest extends baseClass
 		psl.clickSubmit().click();
 		log.info("credential enter successfully");
 		log.info("successfully tested");
+		System.out.println("login page test");
 		
 		page2Dashboard ps2 = new page2Dashboard(driver);
 		ps2.ClickAdmin().click();
