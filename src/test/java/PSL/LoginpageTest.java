@@ -45,6 +45,7 @@ public class LoginpageTest extends baseClass
 		ps2.clickbtn().click();
 		log.info("user detailed enter ");
 		log.info("datta taral diididi");
+System.out.println("aurangabad is largest city");
 		
 	}
 
@@ -53,6 +54,7 @@ public class LoginpageTest extends baseClass
 		driver.close();
 		log.info("driver closed successfully");
 		log.info("suraj edited");
+System.out.println("pune is the city");
 	}
 
 	@DataProvider
