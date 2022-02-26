@@ -34,6 +34,7 @@ public class LoginpageTest extends baseClass
 		psl.enterPassword().sendKeys(password1);
 		psl.clickSubmit().click();
 		log.info("credential enter successfully");
+		log.info("successfully tested");
 		
 		page2Dashboard ps2 = new page2Dashboard(driver);
 		ps2.ClickAdmin().click();
@@ -43,6 +44,7 @@ public class LoginpageTest extends baseClass
 		ps2.selectStatus().selectByVisibleText("Enabled");
 		ps2.clickbtn().click();
 		log.info("user detailed enter ");
+		log.info("datta taral diididi");
 		
 	}
 
@@ -50,6 +52,7 @@ public class LoginpageTest extends baseClass
 	public void tearDown() {
 		driver.close();
 		log.info("driver closed successfully");
+		log.info("suraj edited");
 	}
 
 	@DataProvider
